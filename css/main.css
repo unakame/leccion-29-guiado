@@ -56,7 +56,6 @@ p{
   /* (4/12) x 100 */
   width: 33.333333%;
   background-color: pink;
-  height: 400px;
 }
 
 .col-5{
@@ -98,4 +97,24 @@ p{
 .col-12{
   width: 100%;
   background-color: #17EA99;
+}
+
+.primero{
+    height: 400px;
+}
+
+.segundo{
+  height: 800px;
+}
+
+.segundo1{
+  height: 400px;
+}
+
+.tercero{
+  height: 400px;
+}
+
+.cuarto{
+  height: 800px;
 }
