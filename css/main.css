@@ -12,23 +12,26 @@ p{
   max-width: 1200px;
   margin: 0px auto;
   background-color:  red;
+  padding: 14px;
 }
 
 .row:before, .row:after{
   content: "";
   display: table;
-
+  background-color: #91BCAF;
+  margin-left: 10px;
 }
 
 .row:after{
   clear: both;
 }
 
+
 [class*="col-"]{
   min-height: 7px;
-  padding: 12px;
+  padding: 20px;
   float: left;
-/*  border: 1px solid white;*/
+  border: 6px solid #3e3e3e;
 }
 
 .col-1{
@@ -53,6 +56,7 @@ p{
   /* (4/12) x 100 */
   width: 33.333333%;
   background-color: pink;
+  height: 400px;
 }
 
 .col-5{
@@ -94,17 +98,4 @@ p{
 .col-12{
   width: 100%;
   background-color: #17EA99;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li{
-  padding: 8px;
-    margin-bottom: 7px;
-    background-color: #33b5e5;
-    color: #ffffff;
 }
